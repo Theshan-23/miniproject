@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Book-Table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <div class="logo">
+                <img src="images/logo.jpg">
+            </div>
+            <div class="title">
+                <h1>FaroFood</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a href="Home.html">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-address-card"></i>
+                        <a href="About.html">About</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bell-concierge"></i>
+                        <a href="Menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-address-book"></i>
+                        <a href="contact-us.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button class="book">
+                    <a href="Book-Table.html">Book Table</a>
+                </button> 
+            </div> 
+        </div>
+    </nav>
+        <section class="container">
+                <div class="form-title">
+                  <h2>Book Your Table Now</h2><br>
+                  <h1 class="head">Reservation</h1>
+                 </div>
+         <div class="item"> 
+            <div class="box-video">
+              <video  autoplay loop muted src="images/video.mp4"></video>
+            </div>
+            <div class="user-info"> 
+                <div class="left">
+                    <form action="">
+                        <i class="fa-solid fa-user"></i>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter your Name"required><br>
+                        <i class="fa-solid fa-phone"></i>   
+                        <label for="num">Phone:</label>  
+                        <input type="tel" id="num" placeholder="Enter Your Phone Number"required><br>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <label for="year"> Select date:</label>
+                        <input type="date" id="year" name="month"><br>
+                        <label for="text">Special Request</label><br>
+                        <textarea id="text" name="describe" rows="4" cols="35" placeholder="Enter your request here---" required></textarea><br>
+                    </form>
+                </div>
+                <div class="right">
+                    <form action="">
+                        <i class="fa-solid fa-envelope"></i>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" placeholder="Your Mail"required><br>
+                        <label for="drop">No of People</label><br>
+                        <select id="drop" name="people">
+                          <option> People1</option>
+                          <option>People2</option>
+                          <option>People3</option>
+                          <option>More</option>
+                        </select><br>
+                        <i class="fa-regular fa-calendar"></i>
+                        <label for="month"> Select day:</label>
+                         <select id="month" name="day">
+                           <option>Sunday </option>
+                           <option>Monday</option>
+                           <option>Tuesday</option>
+                           <option>Wednesday</option>
+                           <option >Thursday</option>
+                           <option>Friday</option>
+                           <option>Saturday</option>
+                       </select><br>
+                    </form>
+                    <button class="btn">BOOK NOW</button>
+                </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>

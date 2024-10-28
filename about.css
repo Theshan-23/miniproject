@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo img{
+    width: 42%;
+    border-radius: 50px;
+}
+.menu ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px;
+     background-color:#eba03f;
+ }
+.h1{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.main {
+    display: flex;
+    padding: 30px;
+    column-gap: 20px;
+}
+
+.pic1 img, .pic2 img{
+    width: 250px;
+    height: 220px;
+}
+
+.photo1 img, .photo2 img{
+    width: 250px;
+    height: 220px;
+}
+
+.pic2 ,.photo2 {
+    margin-top: 10px;
+}
+
+.title h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title h2::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 4px;
+    background-color: #eba03f;
+    border-radius: 10px;
+    margin: auto;
+}
+.content{
+    padding: 20px;
+    border: 1px solid #eba03f;
+    font-size: large;
+}
+.content h3{
+    text-align: left;
+    color: #d48215;
+    margin-bottom: 30px;
+}
+.content p{
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.5;
+
+}
+.more{
+    background-color: #eba03f;
+    padding: 7px;
+    border: none;
+    display: block;
+    margin: 0px auto;
+}
+
+.book{
+    background-color: rgb(240, 216, 6);
+    padding: 10px;
+    border: none;
+}
+.book a{
+    text-decoration: none;
+}
+.foot-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36, 13, 43);
+    padding: 30px 0px;
+}
+.foot-details{
+    color: white;
+    text-decoration: none;
+}
+.foot-text{
+    line-height: 2.0;
+}
+
+.foot-text ul li {
+    list-style-type: none;
+    font-size: 18px;
+}
+.foot-text ul li a{
+    color: white;
+    text-decoration: none;
+}
+.foot-icon {
+    margin-top: 10px;
+}
+.foot-icon a i {
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.head h1 {
+    margin-bottom: 20px;
+}
+.head h1::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #eba03f;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.foot-bottom{
+    padding: 20px;
+    background-color: #eba03f;
+}
+
+.foot-bottom p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.title h1 {
+    font-size: 30px;
+}
+
+.menu ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #eba03f;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.background{
+    background-image: url("images/bur.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+.content h3{
+    color: rgb(219, 184, 216);
+}
+.content h1{
+    color: black;
+}
+.content p{
+    color: azure;
+    font-size: x-large;
+}
+.content h2{
+    color: orange;
+}
+.button{
+    color: rgb(15, 15, 11);
+    background-color: #ff511c;
+    font-size: large;
+    border: 3px solid rgb(193, 216, 62);
+    border-radius: 50px;
+    padding: 8px;
+}
+.button a{
+    text-decoration: none;
+}
+
+.book {
+    background-color: rgb(240, 216, 6);
+    padding: 10px;
+    border: none;
+}
+.book a{
+    text-decoration: none;
+}

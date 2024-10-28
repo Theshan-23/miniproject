@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.logo img{
+    width: 50%;
+    border-radius: 50px;
+}
+.menu ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.navigation{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px;
+     background-color: #eba03f;
+ }
+.h1{
+    text-align: center;
+    
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.book {
+    background-color: rgb(240, 216, 6);
+    padding: 10px;
+    border: none;
+}
+.book a{
+    text-decoration: none;
+}
+.container{
+    background-image: url("images/ime.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 6px;
+    text-shadow: 2px 1px 2px  rgb(241, 160, 9);
+    margin-bottom: 10px;
+}
+
+.form-title {
+    text-align: center;
+    padding: 20px;
+}
+.form-title h2{
+    font-size: 30px;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-left: 20px;
+}
+.box-video video {
+    width: max-content;
+    height: 390px;
+    margin-left: 5px;
+}
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    box-shadow: inset -2px 2px 2px rgb(212, 191, 159);
+    background-color: #eba03f;
+    padding: 20px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.user-info input{
+    padding: 8px;
+    width: 85%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 15px 0px;
+ }
+.user-info textarea{
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 15px 0px;
+
+}
+
+.right select{
+    padding: 8px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 15px 0px;
+}
+
+.btn{
+    padding: 8px;
+    width: 95%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+    background-color: rgb(255, 238, 0);
+    margin-left: 10px;
+}
